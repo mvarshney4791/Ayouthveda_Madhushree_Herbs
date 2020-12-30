@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat";
+}
+.container-fluid {
+  padding: 1% 10% 7%;
+}
+
+#title {
+  background-color: #800922;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+/*headline section*/
+#headline {
+  background-color: #be072f;
+  padding: 5px 0px;
+  text-align: center;
+  color: #fff;
+}
+/*naviagtion*/
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+  text-align: left;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-brand {
+  
+  width: 20%;
+}
+.dropdown-menu .dropdown-item {
+  color: #800922;
+  background-color: #fff;
+  font-weight: bold;
+}
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.clickable-button {
+  margin: 7% 3% 5% 0;
+}
+
+/*Features Section*/
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.short {
+  font-size: 1.5rem;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #800922;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #61042b;
+}
+
+/*dryFruits*/
+#dryFruits {
+  padding: 100px 100px 0px 100px;
+  text-align: center;
+}
+.product-fig .card .pista-size {
+  height: 319px;
+}
+/*WholeSpices-section*/
+#wholeSpices {
+  padding: 50px 100px 100px 100px;
+  text-align: center;
+}
+/*Spices-section*/
+#spices {
+  padding: 50px 100px 0px 100px;
+  text-align: center;
+}
+.product-fig {
+  padding: 3% 2%;
+}
+
+.card {
+  margin: auto;
+  border-color: #df0a38;
+}
+.card-text {
+  color: #fff;
+
+  font-size: 20px;
+}
+
+.card-color {
+  background-color: #df0a38;
+  padding: 2px;
+}
+/*testimonials section */
+
+#testimonials {
+  background-color: #690318;
+  text-align: center;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-info {
+  padding: 7% 15%;
+}
+
+@media (max-width: 1030px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*cta8*/
+
+#cta {
+  background-color: #81061f;
+  text-align: center;
+  color: #fff;
+  padding: 3% 5%;
+}
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.contactAlign {
+  text-align: left;
+  color: #fff;
+  line-height: 2;
+}
+
+.clickable-icon {
+  margin: 2%;
+  color: #fff;
+}
+
+.clickable-icon:hover {
+  color: black;
+}
+
+#footer {
+  background-color: #81061f;
+  margin-bottom: 0px;
+  padding: 1% 5%;
+  color: #fff;
+}
+.footColor {
+  color: #fff;
+}
